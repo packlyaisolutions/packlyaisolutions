@@ -1,0 +1,33 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ribbon-a" x1="120" y1="560" x2="1120" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3A66FF"/>
+      <stop offset="0.32" stop-color="#98D7FF"/>
+      <stop offset="0.67" stop-color="#F09BFF"/>
+      <stop offset="1" stop-color="#5B2FFF"/>
+    </linearGradient>
+    <linearGradient id="ribbon-b" x1="170" y1="560" x2="1080" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5A80FF"/>
+      <stop offset="0.45" stop-color="#C1E6FF"/>
+      <stop offset="0.8" stop-color="#D96CFF"/>
+      <stop offset="1" stop-color="#3D3CFF"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#glow)" opacity="0.92">
+    <path d="M72 562C260 526 312 324 512 290C674 262 804 336 950 262C1034 220 1090 154 1152 88" stroke="url(#ribbon-a)" stroke-width="16" stroke-linecap="round"/>
+    <path d="M92 570C274 518 334 360 530 332C706 306 836 388 984 310C1060 268 1118 210 1180 150" stroke="url(#ribbon-b)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M120 584C286 526 378 404 560 374C720 348 846 430 1000 354C1070 320 1136 266 1198 212" stroke="url(#ribbon-a)" stroke-opacity="0.84" stroke-width="8" stroke-linecap="round"/>
+    <path d="M138 592C302 548 404 442 584 418C738 396 866 474 1018 404C1086 372 1146 320 1204 272" stroke="url(#ribbon-b)" stroke-opacity="0.76" stroke-width="5" stroke-linecap="round"/>
+    <path d="M162 598C326 558 434 470 612 452C762 438 882 510 1038 446C1110 416 1164 370 1218 330" stroke="url(#ribbon-a)" stroke-opacity="0.46" stroke-width="3" stroke-linecap="round"/>
+    <path d="M396 32C462 112 498 222 548 272C622 346 734 354 858 310C980 266 1084 194 1196 140" stroke="url(#ribbon-b)" stroke-opacity="0.52" stroke-width="7" stroke-linecap="round"/>
+    <path d="M420 6C476 88 512 184 564 236C646 320 764 336 884 296C988 260 1090 194 1184 140" stroke="url(#ribbon-a)" stroke-opacity="0.3" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
